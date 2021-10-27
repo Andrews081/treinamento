@@ -1,0 +1,651 @@
+.novas-transacoes{
+    margin-top: 30px;
+    margin-left: 200px;
+    border: 1px solid black;
+    padding: 15px 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+h4 {
+    margin-bottom: -17px;
+}
+
+
+.container-principal{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+}
+.container-titulo{
+display: flex;
+justify-content: center;
+}
+
+h1 {
+    width: 174px;
+    height: 20px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 20px;
+    margin-bottom: 21px;
+}
+
+select, input {
+    margin-top:3px;
+    width: 372px; 
+    height: 32px;
+    
+}
+
+select {
+    padding-left: 10px;
+    width: 374px;
+    margin-bottom: 20px;
+    
+}
+
+input::placeholder{
+    padding-left:12px ;
+}
+
+#nome-mercadoria {
+    margin-bottom: 20px;
+}
+
+#nome-mercadoria ::placeholder {
+    color: red;
+}
+
+
+#valor {
+    margin-bottom: 20px;
+}
+
+button {
+    color: #fff;
+    background-color: #333333;
+    width: 376px;
+    height: 36px;
+
+}
+
+#tipo-transacao {
+    color: rgb(82, 82, 82);
+    width: 376px;
+    height: 36px;
+  
+}
+
+
+.container-principal-2 {
+    margin-top: 80px;
+    margin-right: 200px;
+    width: 680px;
+    height: 281px;
+}
+
+
+
+.extrato-transacao-titulo{
+   display: flex;
+   justify-content: center;
+   margin-top: 21px;
+   margin-bottom:19px ;
+   text-align: center;
+   font-weight: 700;
+}
+
+.extrato-transacao-titulo h3 {
+    font-size: 18px;
+    font-weight: 700;
+    width: 178px;
+    height: 24px;
+}
+
+.extrato-transacao-centralizacao{
+ display: flex;
+ justify-content: space-around;
+ margin-left: 40px;
+ margin-right: 20px;
+}
+
+#grid {
+    display: grid;
+    margin-right: 15px;
+    position: relative;
+    top: 4px;
+}
+
+.sinal1 {
+    margin-top: 25px;
+} 
+
+.sinal2 {
+    margin-top: 20px;
+}
+
+.sinal3{
+    margin-bottom: 25px;
+}
+
+.mercadorias {
+    margin: 0;
+    padding: 0;
+    text-align: start;
+    word-break: break-all;
+}
+
+hr {
+    margin-top: 10px;
+    border: 0;
+    border-top: 1px solid  #979797;
+    
+}
+
+.hr-1{
+    width: 400px;
+    margin-top: 10px;
+
+}
+
+
+.hr-2{
+    margin-top: 10px;
+}
+
+.hr-3 {
+    margin-top: 2px;
+}
+
+#valor-12999{
+    position: relative;
+    bottom: 15px;
+}
+
+.valores-finais{
+text-align: right;
+}
+
+footer{
+    width: 100%;
+    border: 5px solid #333;
+    position: absolute;
+    bottom: 0px;
+}  
+
+footer > span{
+    width: 100%;
+
+}
+
+/* Tablet Landscape */
+
+@media screen and (min-width: 1113px) and (max-width: 1200px) {
+
+    body {
+        overflow: hidden;
+    }
+
+    .navbar {
+        width: 1200px;
+    }
+
+    .navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+    footer {
+        width: 1200px;
+    }
+
+}
+
+@media  (max-width: 1112px) {
+  
+.header {
+    width: 100%;
+}    
+
+.navbar  {
+    display: flex;
+    
+}    
+
+.container-principal {
+    display: flex;
+}
+
+ .group {
+     margin-left: 20px;
+ }
+
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.novas-transacoes {
+    width: 400px;
+    margin-left: 5px;
+}
+
+.extrato-transacao {
+    margin-left: 20px;
+    width: 680px;
+    box-sizing: border-box;
+}
+
+}
+
+footer {
+    width: 100;
+}
+
+
+
+
+@media screen and (min-width: 502px) and (max-width: 768px) {
+   
+        body {
+        overflow: hidden;
+    }
+
+    /* Navbar Header */
+
+.img-logo { 
+    width: 30px;
+    height: 27px;
+    display: inline-block;  
+   }
+
+.controle-financeiro {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ #toggle {  
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    cursor: pointer;
+    } 
+
+.navigation {
+    z-index: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin: 0px;
+    padding: 0px; 
+    background-color: #333333;
+    width: 300px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+   }
+
+   .navigation ul {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 70px;
+      color: white;
+   }
+
+   ul li  {    
+       cursor: pointer;
+       margin: 0px;    
+   }
+
+   li, .item-2 {
+       margin-left: 0px;
+   }
+
+   ul {
+       background-color: #333;
+   }
+
+   #check:checked ~ .navigation  {
+       transform: translateX(300px)
+   }
+   #check:checked ~ button {
+        visibility: hidden;
+   }
+
+   #check {
+       display: none;
+   }
+ 
+
+a {
+    display: block;
+    text-align: right;
+    width: 300px;
+    padding-top:10px ;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    color: #FFFFFF;
+}
+
+    a:hover{
+    color: #333333;
+    background-color:  #C4C4C4;
+    width: 300px;
+}
+
+   .barra { 
+   display: none;
+}
+
+  
+ 
+
+   /* Content Main */
+
+   .container-principal {
+       flex-direction: column;
+       
+   }
+
+   .novas-transacoes {
+      text-align: center;
+      padding: 0;
+      width: 728px;
+      height: 189px;      
+    }
+
+    form  {
+        display: flex;
+        margin-top: 20px;
+      
+    }
+
+    
+
+    h4 {
+        margin-left: 20px;
+        text-align: start;
+        font-size: 14px;
+        font-weight: 100;
+        font-style: normal;
+        line-height: 22px;
+        color: #333333;
+        
+    }
+
+    .h4-transacao, .h4-valor, .h4-mercadoria {
+        width: 150px;
+        height: 22px;
+        white-space: nowrap;
+        position: relative;
+        bottom: 20px;
+        
+    }
+
+    .h4-mercadoria {
+        right: 35px
+    }
+
+    .h4-valor {
+        right: 130px;
+    }
+
+       
+    #tipo-transacao {
+        width: 150px;
+        height: 32px;
+        position: relative;
+        right: 110px;
+        flex-shrink: 3;
+        border-radius: 4px;
+    }
+
+    #nome-mercadoria {
+        display: flex;
+        width: 300px;
+        height: 32px;
+        position: relative;
+        right: 165px;
+        flex-shrink: 0;
+        border-radius: 4px;
+
+    }
+
+    #valor {
+        width: 150px;
+        height: 32px;
+        position: relative;
+        right: 164px;
+        border-radius: 4px;
+    }
+
+    #adicionar-transacao {
+        width: 200px;
+        height: 32px;
+        padding: 5px 40px;
+        font-weight: 400;
+        border-radius: 4px;
+        margin-top: 59px;
+        color:  #FFFFFF;
+        text-align: center;
+        border: 1px solid black;
+        position: relative;
+        right: 360px;
+        white-space: nowrap;
+    }
+
+   
+
+#tipo-transacao, #nome-mercadoria, #valor {
+   
+    margin-top: 5px;
+    border-radius: 4px;
+    color: #888888;
+    border: 1px solid #979797;
+}
+
+
+
+}
+
+
+@media screen and (max-width: 501px) {
+
+/* Navbar Header*/
+
+* {
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.navigation {
+    z-index: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin: 0px;
+    padding: 0px; 
+    background-color: #333333;
+    width: 300px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+   }
+
+#check:checked ~ .navigation  {
+    transform: translateX(300px)
+}
+#check:checked ~ button {
+     visibility: hidden;
+}
+
+#check {
+    display: none;
+}
+
+.navigation ul {
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    position: absolute;
+    top: 70px;
+    color: white;
+ }
+
+ ul li, .item-2  {
+    cursor: pointer;
+    margin: 0;
+    
+}
+
+ul li a { 
+    color: #FFFFFF;
+}
+
+ul {
+ display: inline;
+ width: 100%;
+ background-color: #333;
+
+}
+
+a { 
+display: block;
+ text-align: right;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ padding-right: 20px;
+}
+
+ a:hover{
+ color: #333333;
+ background-color:  #C4C4C4;
+ 
+}
+
+.barra { 
+display: none;
+}
+
+#toggle {  
+ display: flex;
+ align-items: center;
+ z-index: 2;
+ cursor: pointer;
+ } 
+
+ 
+
+
+.navbar {
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    width: 768px;
+}
+
+
+ .img-logo { 
+ width: 30px;
+ height: 27px;
+ display: inline-block;
+ margin-right: 22px;  
+}
+
+
+
+.controle-financeiro{
+   text-align: center;
+   width: 270px;
+  
+   
+}
+
+
+ /* Content Main */
+
+ .extrato-transacao{
+     width: 371px;
+     margin-left: 45px;
+ }
+
+.container-titulo {
+    display: none;
+}
+
+h4 {
+    margin-bottom: -17px;
+}
+
+select {
+    margin-bottom: 20px;
+}
+
+.novas-transacoes {
+    border: none;
+    margin-left: 40px;
+}
+
+  .extrato-transacao-centralizacao {
+  margin-right: 25px ;
+  margin-left: 0px;
+      
+ }
+.container-principal {
+    flex-direction: column;
+}
+
+.container-principal-2 {
+  border-top: 1px solid #979797;
+  margin-top: 20px;
+  width: 100%;
+    
+
+}
+
+.mercadorias{
+width: 165px;
+height: 160px;
+word-break: keep-all;
+}
+
+.valores-finais {
+width: 165px;
+height: 160px;
+margin: 0px;
+}
+
+
+footer {
+    display: none;
+}
+
+#quis {
+    white-space: nowrap;
+}
+
+
+
+}
+
+
+
+ 
+
+ 

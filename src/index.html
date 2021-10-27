@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-End</title>
+    <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+    <!--Barra de Navegação-->
+    <header>
+
+        <nav class="navbar">
+            <div class="group"> 
+            
+                <img class="img-logo" src="../assets/img/Ellipse 13.png" alt="logo.png">  
+
+                   
+            </div> 
+            <div class="controle-financeiro"> <h2 > Controle Financeiro</h2> </div>   
+           
+
+            <div id="toggle">          
+            <label for="check">
+                <img src="../assets/img/Hamburger_icon.svg.png" alt="toggle" id="btn-toggle">
+            </label>
+        </div>
+
+        <input type="checkbox" id="check">
+            <div class="navigation">
+                    <ul>
+                         <li class="item-1"><a href="">Cadastro de Transações</a></li> 
+                         <span class="barra">|</span>                        
+                         <li class="item-2"><a href="">Limpar Dados</a></li>
+                    </ul>
+                </div>                
+            </nav>
+        </div>
+
+    </header>
+
+    <!-- Caixa de Novas Tranções-->
+    <main class="container-principal">
+
+        <div class="novas-transacoes">
+           
+            <div class="container-titulo">
+                <h1>Nova transação</h1> 
+            </div>
+            
+            <form action=""> 
+                <p>
+                    <h4 class="h4-transacao ">Tipo de transação</h4> 
+                <label for="tipo-transacao"></label>                  
+                    <br>
+                <select name="tipo-transacao" id="tipo-transacao" placeholder="Compra">
+                <option value="Compra">Compra</option>
+                <option value="Venda">Venda</option>                
+                </select> 
+                </p>
+
+                <p>
+                <h4 class="h4-mercadoria">Nome da mercadoria</h4> 
+                <label for="nome-mercadoria"></label> <br>
+                <input type="text" id="nome-mercadoria" placeholder="Digite o nome do produto">
+                </p>
+
+                <P>
+                <label for="valor"><h4 class="h4-valor">Valor</h4></label> <br>
+                <input type="text" id="valor" placeholder="R$:0,00">
+                </P>
+
+                <button value="Adicionar Transacão" id="adicionar-transacao">Adicionar Transacão</button>
+            </form>
+         </div>
+
+         <!-- Extrato de transações - 2caixa -->
+         <section class="extrato-transacao">           
+            <div class="container-principal-2" >                                       
+                <div class="extrato-transacao-titulo">
+                    <h3>Extrato de Transações</h3>
+                </div>
+            
+            <div class="extrato-transacao-centralizacao">
+                <div id="grid">
+                <div class="sinal1">&#43;</div>            
+                <div class="sinal2">&#8722;</div>    
+                  <div class="sinal3">&#43;</div>
+                </div>
+                
+                <div class="mercadorias">
+                    Mercadoria
+                    <hr>          
+                    Lorem ipsum dolor sit amet consectetur
+                    <hr>
+                     
+                    <span id="quis">Quis nostrud exercitation</span>
+                    <hr>
+                    </span>
+                    Lorem ipsum
+                    <hr class="hr-2">
+                    <hr class="hr-3">
+                    Total
+                </div>
+
+
+                <div class="valores-finais">
+                    Valor
+                    <hr class="hr-1">
+                    <br>
+                    <span id="valor-12999" >R$:12.999,99</span>
+                    <hr>
+                    R$:99,99
+                    <hr class="hr-1">
+                   R$:9,99
+                    
+                    <hr class="hr-2">
+                    <hr class="hr-3">
+                    R$:12.909,99
+                </div>
+            </div>
+             </div>  
+         </section>
+    </main>
+
+    <footer>
+        <span></span>
+    </footer>  
+</body>
+</html>
+
